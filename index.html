@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me Nathanael</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Hello, I'm Nathanael</h1>
+        <p>A 300 Level Computer Science Student </p>
+        <button onclick="showMessage()">Click Me</button>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            My name is Nathanael, and I am a Computer Science student at Bowen University.
+            I am passionate about technology, problem-solving, and website building.
+            I enjoy learning new programming concepts and building useful digital solutions.
+        </p>
+    </section>
+
+    <section class="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Problem Solving</li>
+            <li>Basic JavaScript</li>
+        
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: nathanlucky07@email.com</p>
+        <p>GitHub: https://nathanlutherlucky.github.io/nathanlutherlucky/
+</p>
+    </section>
+
+    <footer>
+        <p>© <span id="year"></span> Nathanael. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("Welcome to my personal webpage!");
+        }
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
